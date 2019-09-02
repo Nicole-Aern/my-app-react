@@ -1,0 +1,33 @@
+.wrapper1 {
+	max-width: 960px;
+	width: 95%;
+	margin: 20px auto;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+
+}
+.text-font{
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+}
+.text-font1{
+  font-size: 23px;
+  color: black;
+}
+.text-font2{
+  color: black;
+}

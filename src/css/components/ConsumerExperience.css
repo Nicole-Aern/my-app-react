@@ -1,0 +1,28 @@
+.wrapper {
+  height: 100vh;
+}
+
+.parallax-img {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-img {
+  background-image: url('../../images/NR---Peter-Poolsaar-LG.jpg');
+}
+.parallax-cont {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: .69px;
+    color: black;
+    margin-top: 54px;
+}
+.parallax-cont2 {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: .69px;
+    color: black;
+    margin-top: 37px;
+}

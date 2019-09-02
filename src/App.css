@@ -1,0 +1,72 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+div#root {
+    background-color: #7d7f82;
+    text-align: center;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media only screen and (max-width: 1199px) {
+  .text {
+      margin-bottom: 0em;
+      font-family: inherit;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #1d2124;
+      font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 980px) {
+  .columns .column {
+		margin-bottom: 5px;
+    flex-basis: 40%;
+		&:nth-last-child(2) {
+			margin-right: 0;
+		}
+		&:last-child {
+			flex-basis: 100%;
+			margin: 0;
+		}
+	}
+}
+@media
+screen and (max-width: 768px) {
+  .parallax-cont {
+      font-size: 30px;
+  }
+  .parallax-cont2 {
+      font-size: 17px;
+  }
+
+}
+@media screen and (max-width: 680px) {
+	.columns .column {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+	}
+}
+@media only screen and (max-width: 400px) {
+  .img-wrapper {
+      width: 290px;
+      height: 412px;
+      overflow: hidden;
+  }
+  .parallax-cont {
+      font-size: 23px;
+  }
+  h1.text-font {
+      font-size: 30px;
+  }
+}

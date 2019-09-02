@@ -1,0 +1,3 @@
+export const SHOW_USER_MODAL = '[USERS] SHOW_USER_MODAL';
+export const HIDE_USER_MODAL = '[USERS] HIDE_USER_MODAL';
+export const SET_USERS_LIST = '[USERS] SET_USERS_LIST';
